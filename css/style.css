@@ -1,0 +1,227 @@
+*{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+body{
+    width: 80%;
+}
+.navbar{
+    background-color: #131921;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 60px;
+    width: 8%;
+}
+.logo{
+    height: 60px;
+    width: 127px;
+    background-image: url("../images/amazon_logo.png") ;
+    background-size: cover;
+}
+.border:hover{
+    border: 2px solid white ;
+}
+/* Box 2 style */
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-first{
+    color: white;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+/* Third Box */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #febd69;
+    width: 50%;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 8%;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    border: none;
+}
+.search-icon{
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+/* Box 4 */
+
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* box 5 */
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+
+/* Panel css */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* hero section */
+.hero-section{
+    background-image: url(../images/hero_image.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: #f5f6f6;
+    color: black;
+    height: 40px;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+    text-decoration: none
+}
+/* shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 25%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+}
+/* Footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.foot-panel2{
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    justify-content: center;
+}
+ul{
+    margin: 20px;
+}
+.foot-panel2 ul a{
+    display: block;
+    color: #DDDDDD;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+}
+.privacy-panel{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.privacy-panel a{
+    text-decoration: none;
+    color:white;
+}
+.terms{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 5px;
+}
